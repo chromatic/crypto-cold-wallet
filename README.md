@@ -11,7 +11,12 @@ and [Bitcoin::Crypto](https://metacpan.org/dist/Bitcoin-Crypto).
 
 ## Downloading
 
-Download this image from the GHCR.
+Download this image from the GHCR:
+
+```bash
+$ docker pull ghcr.io/chromatic/crypto-cold-wallet:main
+```
+
 
 ## Usage
 
@@ -24,7 +29,7 @@ $ docker run -it <imagename>
 This will provide a help message.
 
 ```bash
-$ docker run -it <imagename> -network dogecoin --auto -o
+$ docker run -it ghcr.io/chromatic/crypto-cold-wallet:main -network dogecoin --auto -o
 ```
 
 This will prompt you for a secret password (type it on the command line) and
