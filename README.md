@@ -9,6 +9,10 @@ The image relies on the Perl libraries
 [App-Bitcoin-PaperWallet](https://metacpan.org/dist/App-Bitcoin-PaperWallet)
 and [Bitcoin::Crypto](https://metacpan.org/dist/Bitcoin-Crypto).
 
+## Downloading
+
+Download this image from the GHCR.
+
 ## Usage
 
 Run the image with:
